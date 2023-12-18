@@ -1,10 +1,15 @@
 import React from 'react';
-import Typical from 'react-typical'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { useTypewriter, Cursor} from "react-simple-typewriter"
 
 function Intro(props) {
-    
+    const [text] = useTypewriter({
+      words: ["Software Developer","Coder","MERN Developer","Learner",],
+      loop: {},
+      typeSpeed: 80,
+      deleteSpeed: 80
+    })
 
     return (
         <>
@@ -24,21 +29,10 @@ function Intro(props) {
             <p className="text-3xl font-bold text-gray-300">Muzzammil Hussain</p>
           </div>
           <div className="md:text-start text-center mt-4">
-            <h1 className="text-2xl text-green-500">
-              <Typical
-                loop={Infinity}
-                steps={[
-                  "Software Developer",
-                  2000,
-                  "Coder",
-                  2000,
-                  "MERN Developer",
-                  2000,
-                  "Learner",
-                  2000,
-                ]}
-              />
-            </h1>
+            <span className="text-2xl text-green-500">
+              {text}
+            </span>
+            <span className='text-white text-2xl'><Cursor cursorStyle="|"/></span>
           </div>
           <div className='flex mt-4 md:mx-0 mx-auto'>
             <a href='https://www.linkedin.com/in/muzzammil-hussain-35562422b'><LinkedInIcon className='mr-4'/></a>
