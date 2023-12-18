@@ -16,7 +16,7 @@ const Education = () => {
             <p className='text-sm text-gray-600'>2020-2024</p>
         </div>
     </div>
-    <p className='mt-2 text-gray-700 font-semibold'>Grade: 8.06(cgpa)</p>
+    <p className='mt-2 text-gray-700 font-semibold'>Grade: 8.16(cgpa)</p>
     <p className='mt-4 text-gray-700'>
     B.Tech student and passionate software developer with robust problem-solving skills. Adept in JavaScript and proficient debugger, with a strong foundation in core subjects like object oriented programming, operating systems, computer networks, DBMS and data structures.    </p>
 </div>

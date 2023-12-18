@@ -17,7 +17,7 @@ function Projects(props) {
                 <img src='assets/netflix.png' className='mb-4 rounded-lg' alt='Project Image' />
 
                 <ul className='list-none grid grid-cols-3 gap-2'>
-                    <li className='bg-blue-500 p-2 rounded-md text-center hover:bg-blue-600 cursor-pointer'>React JS</li>
+                    <li className='bg-blue-500 p-2 rounded-md text-center hover:bg-blue-600 cursor-pointer'>React</li>
                     <li className='bg-green-500 p-2 rounded-md text-center hover:bg-green-600 cursor-pointer'>Tailwind</li>
                     <li className='bg-purple-500 p-2 rounded-md text-center hover:bg-purple-600 cursor-pointer'>Firebase</li>
                     <li className='bg-yellow-500 p-2 rounded-md text-center hover:bg-yellow-600 cursor-pointer'>Redux</li>
@@ -25,11 +25,11 @@ function Projects(props) {
 
                 <h3 className='text-2xl font-semibold mt-4'>NetflixGPT</h3>
                 <p className='text-gray-300 mb-4'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia nostrum laborum illum, et earum id sunt.
+                Netflix GPT blends streaming with ChatGPT 3.5, creating a unique user experience for personalized recommendations in a Netflix clone.
                 </p>
 
                 <div className='flex space-x-4'>
-                    <a href='https://github.com/muzzammilHub/netflix-gpt'>
+                    <a href='https://github.com/muzzammilHub/netflix-gpt' target='_blank'>
                     <button className='bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300'>View Code</button>
                     </a>
                     <a href='https://netflixgpt3.netlify.app/' target='_blank'>
@@ -41,23 +41,23 @@ function Projects(props) {
                 <img src='assets/dochub.png' className='mb-4 rounded-lg' alt='Project Image' />
 
                 <ul className='list-none grid grid-cols-3 gap-2'>
-                    <li className='bg-blue-500 p-2 rounded-md text-center hover:bg-blue-600 cursor-pointer'>React JS</li>
+                    <li className='bg-blue-500 p-2 rounded-md text-center hover:bg-blue-600 cursor-pointer'>React</li>
                     <li className='bg-orange-500 p-2 rounded-md text-center hover:bg-orange-600 cursor-pointer'>Redux</li>
-                    <li className='bg-green-500 p-2 rounded-md text-center hover:bg-green-600 cursor-pointer'>Express JS</li>
+                    <li className='bg-green-500 p-2 rounded-md text-center hover:bg-green-600 cursor-pointer'>Express</li>
                     <li className='bg-purple-500 p-2 rounded-md text-center hover:bg-purple-600 cursor-pointer'>mongoose</li>
                     <li className='bg-yellow-500 p-2 rounded-md text-center hover:bg-yellow-600 cursor-pointer'>Tailwind</li>
                 </ul>
 
                 <h3 className='text-2xl font-semibold mt-4'>Doctor Pannel</h3>
                 <p className='text-gray-300 mb-4'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia nostrum laborum illum, et earum id sunt.
+                Comprehensive doctor portal for streamlined medical processes. Features e-prescription, patient info management.
                 </p>
 
                 <div className='flex space-x-4'>
-                    <a href='https://github.com/muzzammilHub/doctor_pannel'>
+                    <a href='https://github.com/muzzammilHub/doctor_pannel' target='_blank'>
                     <button className='bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300'>View Code</button>
                     </a>
-                    <a href='#'>
+                    <a href='https://docportall.netlify.app/' target='_blank'>
                     <button className='bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md transition duration-300'>View Live</button>
                     </a>
                 </div>
