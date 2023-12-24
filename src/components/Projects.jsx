@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import AssignmentIcon from '@mui/icons-material/Assignment';
+import CopyToClipboard from './CopyToClipboard';
 
 
 function Projects(props) {
@@ -8,6 +9,8 @@ function Projects(props) {
     const handleClick = ()=>{
         setIsOpen((prev)=>setIsOpen(!prev))
     }
+
+    const textToCopy = ["mhussain@gmail.com","Pqrst@12","mhussain@mh.com", "pqrst12"]
     return (
         <div id='projects' className='bg-gray-200 pb-3'>
             <p className=' text-3xl font-semibold text-center pt-6'>Projects <AssignmentIcon className='text-green-500'/></p>
@@ -25,8 +28,18 @@ function Projects(props) {
 
                 <h3 className='text-2xl font-semibold mt-4'>NetflixGPT</h3>
                 <p className='text-gray-300 mb-4'>
-                Netflix GPT blends streaming with ChatGPT 3.5, creating a unique user experience for personalized recommendations in a Netflix clone.
+                Netflix GPT blends streaming with ChatGPT 3.5, creating a unique <a href='https://github.com/muzzammilHub/netflix-gpt' target='_blank'>{">>>"}</a>.
                 </p>
+
+                <p className='text-gray-300'>Testing Email and Password</p>
+
+                <div className='mb-1'>
+                    <CopyToClipboard textToCopy={textToCopy[0]} />
+                </div>
+
+                <div className='mb-1'>
+                    <CopyToClipboard textToCopy={textToCopy[1]} />
+                </div>
 
                 <div className='flex space-x-4'>
                     <a href='https://github.com/muzzammilHub/netflix-gpt' target='_blank'>
@@ -50,8 +63,18 @@ function Projects(props) {
 
                 <h3 className='text-2xl font-semibold mt-4'>Doctor Pannel</h3>
                 <p className='text-gray-300 mb-4'>
-                Comprehensive doctor portal for streamlined medical processes. Features e-prescription, patient info management.
+                Comprehensive doctor portal for streamlined medical processes <a href='https://github.com/muzzammilHub/doctor_pannel' target='_blank'>{">>>"}</a>.
                 </p>
+
+                <p className='text-gray-300'>Testing Email and Password</p>
+
+                <div className='mb-1'>
+                    <CopyToClipboard textToCopy={textToCopy[2]} />
+                </div>
+
+                <div className='mb-1'>
+                    <CopyToClipboard textToCopy={textToCopy[3]} />
+                </div>
 
                 <div className='flex space-x-4'>
                     <a href='https://github.com/muzzammilHub/doctor_pannel' target='_blank'>
