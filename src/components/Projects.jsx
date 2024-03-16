@@ -45,7 +45,7 @@ function Projects(props) {
                     <a href='https://github.com/muzzammilHub/netflix-gpt' target='_blank'>
                     <button className='bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300'>View Code</button>
                     </a>
-                    <a href='https://netflixgpt3.netlify.app/' target='_blank'>
+                    <a href='https://netflixgpt-3.netlify.app/' target='_blank'>
                     <button className='bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md transition duration-300'> View Live</button>
                     </a>
                 </div>
