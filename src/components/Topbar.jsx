@@ -1,14 +1,8 @@
 import React, {useState} from 'react';
-import Hamberger from './Hamberger';
 
 
 function Topbar() {
-    const [menuOpen, setMenuOpen] = useState(false)
     
-    const handleClick = ()=>{
-        setMenuOpen((prev)=> !prev)
-    }
-
     return (
         <div className='flex h-20 items-center justify-between'>
             <p className='md:ml-10 bg-green-400 p-1 pl-2 pr-2 rounded-xl font-semibold md:text-base text-lg'>
@@ -35,7 +29,9 @@ function Topbar() {
                 </li>
             </ul>
             <p 
-            className='bg-green-400 font-semibold p-1 pl-2 pr-2 md:mr-10 rounded-xl text-lg md:text-base'>Resume</p>
+            className='bg-green-400 font-semibold p-1 pl-2 pr-2 md:mr-10 rounded-xl text-lg md:text-base'>
+                <a href='https://drive.google.com/file/d/1xgxje-TUFxtEViyHKbuHXppg_lKS6Xex/view?usp=sharing'>Resume</a>
+            </p>
             {/* <Hamberger
             onClick={handleClick}
             menuOpen={menuOpen}
