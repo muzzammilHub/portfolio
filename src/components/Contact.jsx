@@ -27,7 +27,7 @@ function Contact(props) {
 
     return (
             
-        <div id='contact' className=' bg-gradient-to-r bg-gray-900 text-white rounded-lg shadow-lg'>
+        <div id='contact' className='bg-gradient-to-r bg-gray-900  text-white  shadow-lg'>
         <div className='flex flex-col items-center justify-center'>
           <p className='text-3xl font-bold pt-6 pb-4'>Get in touch <ConnectWithoutContactIcon className='inline-block w-6 h-6 ml-2 text-green-500' /></p>
           <p className='text-lg pb-8 p-3 text-center'>Feel free to reach out to me for any questions and opportunities</p>
@@ -40,7 +40,7 @@ function Contact(props) {
         className='w-[30rem] mx-auto bg-white p-8 rounded-lg shadow-lg'>
       <div className='mb-4'>
         <input
-          className='text-black w-full px-3 py-2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500 transition duration-300'
+          className='text-black  w-full px-3 py-2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500 transition duration-300'
           type='text'
           placeholder='Name'
           name='name'
@@ -50,7 +50,7 @@ function Contact(props) {
 
       <div className='mb-4'>
         <input
-          className='text-black w-full px-3 py-2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500 transition duration-300'
+          className='text-black  w-full px-3 py-2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500 transition duration-300'
           type='email'
           placeholder='Email'
           name='email'
@@ -60,7 +60,7 @@ function Contact(props) {
 
       <div className='mb-4'>
         <input
-          className=' text-black w-full px-3 py-2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500 transition duration-300'
+          className='text-black  w-full px-3 py-2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500 transition duration-300'
           type='text'
           placeholder='Subject'
           name='subject'
@@ -70,7 +70,7 @@ function Contact(props) {
 
       <div className='mb-4'>
         <textarea
-          className=' text-black w-full px-3 py-2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500 transition duration-300'
+         className='text-black dark:text-white w-full px-3 py-2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500 transition duration-300'
           name="message"
           placeholder='Message'
           rows={4}

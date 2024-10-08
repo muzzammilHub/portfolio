@@ -3,9 +3,9 @@ import WorkIcon from '@mui/icons-material/Work';
 
 const WorkExperience = () => {
   return (
-    <div className=' h-auto bg-gray-300 pt-10 pb-10'>
+    <div className='h-auto  dark:bg-gray-900 pt-10 pb-10'>
         <div className=' flex justify-center items-center'>
-            <h3 className='text-3xl font-semibold'>Work Experience <span><WorkIcon className="text-3xl text-green-400"/></span></h3>
+            <h3 className='text-3xl font-semibold text-gray-800 dark:text-white'>Work Experience <span><WorkIcon className="text-3xl text-green-400"/></span></h3>
             
         </div>
         <div className=' p-4  rounded-lg  flex justify-center items-center'>
@@ -14,18 +14,18 @@ const WorkExperience = () => {
                 src="assets/img.png" 
                 alt="Profile Image"
             />
-            <p className='text-lg font-semibold text-gray-700  ml-4'>Software Developer</p>
+            <p className='text-lg font-semibold text-gray-700 dark:text-gray-300 ml-4'>Software Developer</p>
         </div>
         <div className=''>
-        <div className='text-left mx-auto md:w-[40%] p-6 mt-4 mb-6 bg-white rounded-lg shadow-lg border-2 border-green-500 h-[12rem]'>
+        <div className='text-left mx-auto md:w-[40%] p-6 mt-4 mb-6 bg-white dark:bg-gradient-to-br  dark:from-gray-800 dark:to-gray-900 rounded-lg shadow-lg border-2 border-green-500 h-[12rem]'>
             <div className='flex items-center'>
                 <img className='w-16 h-16 object-cover rounded-full mr-4 border-4 border-green-500 bg-amber-900' src='/assets/c1_logo.png' alt='logo'/> 
                 <div>
-                    <p className='text-lg font-semibold text-gray-800'>App Avenge Labs Pvt. Ltd.</p>
+                    <p className='text-lg font-semibold text-gray-800 dark:text-white'>App Avenge Labs Pvt. Ltd.</p>
                     <div className=' flex items-center justify-between'>
-                            <p className='text-md font-semibold mr-2'>Reactjs Dev(intern)</p>
-                            <p className='text-sm text-gray-600 mr-2'>Remote <span>(Aug 2024 - Present)</span></p>
-                            <p className='text-sm text-gray-600'>Ahmedabad, India</p>                        
+                            <p className='text-md font-semibold mr-2 dark:text-gray-300'>Reactjs Dev(intern)</p>
+                            <p className='text-sm text-gray-600 mr-2 dark:text-gray-400'>Remote <span>(Aug 2024 - Present)</span></p>
+                            <p className='text-sm text-gray-600 dark:text-gray-400'>Ahmedabad, India</p>                        
                     </div>
                 </div>
             </div>
@@ -52,15 +52,15 @@ const WorkExperience = () => {
                 </div>
             </div>
         </div>
-        <div className='text-left mx-auto md:w-[40%] p-6 mt-4 mb-6 bg-white rounded-lg shadow-lg border-2 border-green-500 h-[14rem]'>
+        <div className='text-left mx-auto md:w-[40%] p-6 mt-4 mb-6 bg-white dark:bg-gradient-to-br  dark:from-gray-800 dark:to-gray-900 rounded-lg shadow-lg border-2 border-green-500 h-[14rem]'>
     <div className='flex items-center'>
         <img className='w-16 h-16 object-cover rounded-full mr-4 border-4 border-green-500 bg-black' src='/assets/c2_logo.png' alt='logo'/> 
         <div>
-            <p className='text-lg font-semibold text-gray-800'>Excellence Technology Pvt. Ltd.</p>
+            <p className='text-lg font-semibold text-gray-800 dark:text-white'>Excellence Technology Pvt. Ltd.</p>
             <div className=' flex items-center justify-between'>
-                <p className='text-md font-semibold mr-2'>Jr. SDE(intern)</p>
-                <p className='text-sm text-gray-600 mr-2'>Remote <span>(June 2024 - August 2024)</span></p>
-                <p className='text-sm text-gray-600'>Noida, India</p>                        
+                <p  className='text-md font-semibold mr-2 dark:text-gray-300'>Jr. SDE(intern)</p>
+                <p className='text-sm text-gray-600 mr-2 dark:text-gray-400'>Remote <span>(June 2024 - August 2024)</span></p>
+                <p  className='text-sm text-gray-600 dark:text-gray-400'>Noida, India</p>                        
             </div>
         </div>
     </div>

@@ -13,8 +13,8 @@ function Intro(props) {
 
     return (
         <>
-        <div id='intro' className="md:flex bg-gray-900 p-8 text-white rounded-b-[28%]">
-        <div className="md:flex-1">
+        <div id='intro' className="md:flex bg-gray-900 dark:bg-gray-900 text-white rounded-b-[28%]">
+        <div className="md:flex-1 p-10">
           <div className="rounded-full overflow-hidden mx-auto w-[40vh] h-[40vh] bg-white border-4 border-green-400">
             <img
               className="w-full h-full object-cover"
@@ -29,7 +29,7 @@ function Intro(props) {
             <p className="text-3xl font-bold text-gray-300">Muzzammil Hussain</p>
           </div>
           <div className="md:text-start text-center mt-4">
-            <span className="text-2xl text-green-500">
+            <span className="text-2xl text-green-500 ">
               {text}
             </span>
             <span className='text-white text-2xl'><Cursor cursorStyle="|"/></span>
@@ -40,7 +40,7 @@ function Intro(props) {
           </div>
         </div>
       </div>
-      <div className='md:h-[8rem] h-[10rem] bg-green-400 md:-mt-[6.4rem] -mt-[9rem] -z-10 relative'></div>
+      <div className='md:h-[8rem] h-[10rem] dark:bg-gray-900 bg-green-400 md:-mt-[6.4rem] -mt-[9rem] -z-10 relative'></div>
       </> 
     );
 }

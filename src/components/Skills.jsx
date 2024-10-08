@@ -6,7 +6,7 @@ function Skills() {
 
 
     return (
-        <div id='skills' className='mt-5 mb-10'><p className='text-center text-3xl font-bold'>Skills<SyncAltIcon className='ml-2 text-green-500'/></p>
+        <div id='skills' className='pt-5 pb-10 dark:bg-gray-900 dark:text-white'><p className='text-center text-3xl font-bold'>Skills<SyncAltIcon className='ml-2 text-green-500'/></p>
         <div className='md:flex items-center justify-center'>
     
             <div className='md:mr-10  mt-5 p-3'>
