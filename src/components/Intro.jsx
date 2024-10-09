@@ -14,7 +14,7 @@ function Intro(props) {
     return (
         <>
         <div id='intro' className="md:flex bg-gray-900 dark:bg-gray-900 text-white rounded-b-[28%]">
-        <div className="md:flex-1 p-10">
+        <div className="md:flex-1 md:p-10 pt-2">
           <div className="rounded-full overflow-hidden mx-auto w-[40vh] h-[40vh] bg-white border-4 border-green-400">
             <img
               className="w-full h-full object-cover"

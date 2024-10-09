@@ -5,9 +5,9 @@ function About(props) {
     return (
     <div id='about' className='bg-gray-200 dark:bg-[#393e46]'>
         <div className='flex p-8 md:h-[50vh] h-[auto] text-black dark:text-white'>
-        <div className='flex-1 pr-4 ml-[15%]'>
+        <div className='flex-1 md:pr-4 md:ml-[15%]'>
             <p className='text-3xl font-bold mb-4 md:text-left text-center'>About me <InfoIcon className='text-green-500'/></p>
-            <p className='font-semibold md:w-[30rem] md:text-base text-lg md:text-justify text-center dark:text-gray-300'>
+            <p className='font-semibold md:w-[30rem] md:text-base text-lg  text-justify dark:text-gray-300'>
                 <span class="font-bold">Muzzammil Hussain</span>, a dedicated software developer with a <span class="text-green-600 font-semibold">BTech in Computer Science and Engineering</span>, is currently interning as a <span class="text-green-600 font-semibold">React developer</span> at <span class="text-green-600">App Avengers</span>. Fueled by a passion for creating impactful solutions, Muzzammil excels in developing real-world full-stack applications, with a robust command of <span class="text-green-600 font-semibold">Nodejs, Reactjs</span>.
             </p>
         </div>

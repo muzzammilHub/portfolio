@@ -15,7 +15,7 @@ function Topbar({ toggleDarkMode, isDarkMode }) {
                     </li>
                 ))}
             </ul>
-            <p className={`bg-green-500 font-semibold p-1 pl-2 pr-2 md:mr-10 rounded-xl text-lg md:text-base ${isDarkMode ? 'text-white' : 'text-black'} transition-colors duration-300`}>
+            <p className={`hidden md:block bg-green-500 font-semibold p-1 pl-2 pr-2 md:mr-10 rounded-xl text-lg md:text-base ${isDarkMode ? 'text-white' : 'text-black'} transition-colors duration-300`}>
                 <a href='https://drive.google.com/file/d/1xgxje-TUFxtEViyHKbuHXppg_lKS6Xex/view?usp=sharing'>Resume</a>
             </p>
             
